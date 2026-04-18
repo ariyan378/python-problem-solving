@@ -30,6 +30,7 @@ def square (num):
     time.sleep(1)
     print(num**2)    
 
+
 hello()    
 Barcelona()
 square(111)   

@@ -25,6 +25,10 @@ except InvalidAge as A:
     A.Display()     
        
 except InvalidName as N:
-    N.Display()        
+    N.Display()  
+else:
+    print('Vote done succesfully')
+finally:
+    print("Thank you")              
 
            

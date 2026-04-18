@@ -13,10 +13,12 @@ L[1].append(s)
 print("After Appending ")
 print(L)
 
+
 L[1].extend([i])
 #we can expand multiple item as a single list item using []
 print("After Extending ")
 print(L)
+
 
 L[1].insert(4,j)
 #we can insert any list ,location will need to give first then the item we want to add

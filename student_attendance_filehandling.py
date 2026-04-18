@@ -7,7 +7,7 @@ choice = int(input())
 names = set()
 
 for i in range(choice):
-    entry = input(f'Enter Name {i+1}: ').strip().capitalize()
+    entry = input(f'Enter Name { +1}: ').strip().capitalize()
     names.add(entry)
 
 if os.path.exists(file_name):

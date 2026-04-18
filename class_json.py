@@ -1,5 +1,5 @@
 import json
-
+#def ask_chatgpt (prompt):
 class Person:
     def __init__(self, name, id):
         self.name = name 
